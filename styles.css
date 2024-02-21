@@ -1,0 +1,42 @@
+ body {
+     background-color: rgb(42, 42, 42);
+     color: aliceblue;
+ }
+
+ #scoreDiv {
+     position: absolute;
+     right: 10px;
+ }
+
+ #ball-area {
+     width: 100%;
+     height: 92vh;
+ }
+
+ .bars {
+     text-align: center;
+     width: 15%;
+     height: 20px;
+     min-width: 200px;
+     border-radius: 5px;
+ }
+
+ #bar-1 {
+     /* background-color: rgb(107, 107, 117); */
+     vertical-align: top;
+     width: 100%;
+ }
+
+
+ #bar-2 {
+     background-color: blueviolet;
+     vertical-align: bottom;
+ }
+
+ #ball {
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     background-color: red;
+     position: absolute;
+ }
