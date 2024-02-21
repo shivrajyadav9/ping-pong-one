@@ -24,6 +24,10 @@ rod.style.marginLeft = left + "px";
 
 localStorage.setItem("maxScore", 0);
 
+(function open(){
+    alert('Press enter to start');
+})();
+
 document.addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
         start();
